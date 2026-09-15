@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+		'rover_simulator = urc_rover_console.rover_simulator:main',
+        	'battery_gui = urc_rover_console.battery_gui:main',
         ],
     },
 )
