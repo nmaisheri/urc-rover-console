@@ -25,9 +25,9 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='nipun',
-    maintainer_email='nipun@todo.todo',
-    description='TODO: Package description',
+    maintainer='Nipun Maisheri',
+    maintainer_email='nmaisher@umd.edu',
+    description='ROS 2 and PyQt operator dashboard for simulated URC autonomous navigation missions',
     license='MIT',
     extras_require={
         'test': [

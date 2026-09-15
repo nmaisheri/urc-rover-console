@@ -3,12 +3,13 @@
 <package format="3">
   <name>urc_rover_console</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="nipun@todo.todo">nipun</maintainer>
+  <description>ROS 2 and PyQt operator dashboard for simulated URC autonomous</description>
+  <maintainer email="nmaisher@umd.edu">Nipun Maisheri</maintainer>
   <license>MIT</license>
 
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
+  <exec_depend>python3-pyqt5</exec_depend>
   <exec_depend>launch</exec_depend>
   <exec_depend>launch_ros</exec_depend>
 
